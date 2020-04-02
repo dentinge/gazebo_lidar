@@ -35,11 +35,11 @@
         <child link="laser"/>
     </joint>
     
-    <link name="laser">
+    <link name="laser_link">
     </link>
     
 
-    <gazebo reference="hokuyo_link">
+    <gazebo reference="laser_link">
     <sensor type="gpu_ray" name="head_hokuyo_sensor">
       <pose>0 0 0 0 0 0</pose>
       <visualize>false</visualize>
