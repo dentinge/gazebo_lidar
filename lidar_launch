@@ -1,0 +1,11 @@
+
+<launch>
+
+  
+  <arg name="model" default="$(find lidar_description)/urdf/lidar_urdf.urdf"/>
+
+  <!-- Show in Rviz   -->
+  <!--<node name="rviz" pkg="rviz" type="rviz" args="-d $(find emily_mira_description)/rviz_config/urdf.rviz"/>-->
+  <node name="rviz" pkg="rviz" type="rviz" args=""/>
+
+</launch>
